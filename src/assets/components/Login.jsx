@@ -24,7 +24,7 @@ const Login = () => {
     <div className="containerLogin">
       <h2>Iniciar Sesión</h2>
       <form onSubmit={handleSubmit} className="form-container">
-        <div>
+        <div className="inputEmailLogin">
           <label>Email:</label>
           <input
             type="email"
@@ -33,7 +33,7 @@ const Login = () => {
           />
         </div>
 
-        <div>
+        <div className="inputPassLogin">
           <label>Contraseña:</label>
           <input
             type="password"

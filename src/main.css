@@ -1,6 +1,6 @@
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url("./assets/img/Header.jpg");
+    url("./assets/img/Header.jpg");
   background-size: cover;
   height: 40vh;
 }
@@ -15,7 +15,7 @@
   gap: 20px;
 }
 
-.product{
+.product {
   width: 100%;
   object-fit: cover;
 }
@@ -31,7 +31,7 @@
   background: none;
 }
 
-.botones{
+.botones {
   display: flex;
   gap: 100px;
   margin-bottom: 10px;
@@ -62,7 +62,7 @@
 .cont-menu {
   list-style: none;
   display: flex;
-  gap:10px;
+  gap: 10px;
   margin: 10px 0 10px 10px;
   padding: 0;
   align-items: center;
@@ -125,9 +125,19 @@ input {
   padding: 8px;
   margin: 5px 0;
   width: 250px;
+  border-radius: 5px;
 }
 
 button {
   padding: 10px;
   cursor: pointer;
+}
+
+.inputEmailRegister,
+.inputpassRegister,
+.inputConfPassRegister,
+.inputEmailLogin,
+.inputPassLogin {
+  display: flex;
+  flex-direction: column;
 }

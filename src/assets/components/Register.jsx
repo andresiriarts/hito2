@@ -44,7 +44,7 @@ const Register = () => {
     <div className="containerRegister">
       <h2>Registro</h2>
       <form onSubmit={handleSubmit} className="registro">
-        <div>
+        <div className="inputEmailRegister">
           <label>Email:</label>
           <input
             type="email"
@@ -53,7 +53,7 @@ const Register = () => {
           />
         </div>
 
-        <div>
+        <div className="inputpassRegister">
           <label>Contraseña:</label>
           <input
             type="password"
@@ -62,7 +62,7 @@ const Register = () => {
           />
         </div>
 
-        <div>
+        <div className="inputConfPassRegister">
           <label>Confirmar Contraseña:</label>
           <input
             type="password"
