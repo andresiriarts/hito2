@@ -5,14 +5,55 @@
   height: 40vh;
 }
 
-.container {
+.pizza-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70vh;
+  flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.listIngredients {
+  text-align: left;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.pizza-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #e63946;
+}
+
+.cart {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-image {
+  border-radius: 5px;
 }
 
 .product {
@@ -49,10 +90,6 @@
   color: #fff;
   border: 1px solid #a7a7a7;
   border-radius: 5px;
-}
-
-.ingredientes {
-  border-top: 1px solid #a7a7a7;
 }
 
 .separacion {
